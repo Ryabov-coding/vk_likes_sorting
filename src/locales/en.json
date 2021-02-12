@@ -1,0 +1,93 @@
+{
+	"app-name": "Likesfinder",
+	"doc-title": "LIKESFINDER",
+	"run-btn": "Run",
+	"input-placeholder": "Link, public-name or public-id",
+	"last-calls-title": "Last requests",
+	"subheader": {
+		"first-part": "Scans group's and public's posts of ",
+		"vkontakte": "Vkontakte",
+		"second-part": " and returns them sorted by amounts of likes. Also it is able to filter them by hour, day of week or date"
+	},
+	"last-requests": {
+		"min": "min.",
+		"sec": "sec."
+	},
+	"posts": {
+		"total-posts": "Total posts",
+		"total-likes": "Total likes",
+		"middle-likes": "Likes per post",
+		"filters": "Filters",
+		"upend": "Upend",
+		"filter-btn": "Filter",
+		"filter-time": "By hour",
+		"filter-weekday": "By day of week",
+		"filter-date": "By date",
+		"time-filter": {
+			"from": "From",
+			"to": "To"
+		},
+		"filters-weekdays": {
+			"monday": "Monday",
+			"tuesday": "Tuesday",
+			"wednesday": "Wednesday",
+			"thursday": "Thursday",
+			"friday": "Friday",
+			"saturday": "Saturday",
+			"sunday": "Sunday"
+		},
+		"look": "Look",
+		"more": "More",
+		"dates": {
+			"months": {
+				"1":"Jan.",
+				"2":"Feb.",
+				"3":"Mar.",
+				"4":"Apr.",
+				"5":"May",
+				"6":"Jun.",
+				"7":"Jul.",
+				"8":"Aug.",
+				"9":"Sep.",
+				"10":"Oct.",
+				"11":"Nov.",
+				"12":"Dec."
+			},
+			"weekdays": {
+				"1":"Mo.",
+				"2":"Tu.",
+				"3":"We.",
+				"4":"Th.",
+				"5":"Fr.",
+				"6":"Sa.",
+				"7":"Su."
+			},
+			"hours": {
+				"1":"1",
+				"2":"2",
+				"3":"3",
+				"4":"4",
+				"5":"5",
+				"6":"6",
+				"7":"7",
+				"8":"8",
+				"9":"9",
+				"10":"10",
+				"11":"11",
+				"12":"12",
+				"13":"1",
+				"14":"2",
+				"15":"3",
+				"16":"4",
+				"17":"5",
+				"18":"6",
+				"19":"7",
+				"20":"8",
+				"21":"9",
+				"22":"10",
+				"23":"11",
+				"0":"12"
+			}
+		}
+	}
+}
