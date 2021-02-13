@@ -170,8 +170,6 @@
             DatePicker,
         },
         mounted() {
-            this.showMorePostsBtn = this.posts.length < this.posts_counter
-
             // Меняем абривиатуры в датапикере
             this.setCalendareLangVariables()
             EventBus.$on('locale_change', () => {
@@ -183,7 +181,6 @@
       },
       data() {
             return {
-                showMorePostsBtn: false,
                 showFiltersMenu: false,
                 filterTime: false,
                 filterWeekday: false,
@@ -239,6 +236,9 @@
           },
         },
         computed: {
+            showMorePostsBtn() {
+                return this.posts.length < this.posts_counter
+            },
             postsCounter(){
               return Helpers.formatNumber(this.posts_counter,0, ' ', ' ')
             },
