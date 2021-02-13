@@ -246,8 +246,8 @@
               return Helpers.formatNumber(this.likes_counter, 0, ' ', ' ')
             },
             middleLikesPerPost: function () {
-                return this.likes_counter === null || this.posts_counter === null
-                    ? 0
+                return !this.likes_counter || !this.posts_counter
+                    ? 0.0
                     : Number((this.likes_counter / this.posts_counter).toFixed(2))
             },
         },
