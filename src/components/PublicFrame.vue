@@ -247,7 +247,7 @@
             },
             middleLikesPerPost: function () {
                 return this.likes_counter === null || this.posts_counter === null
-                    ? null
+                    ? 0
                     : Number((this.likes_counter / this.posts_counter).toFixed(2))
             },
         },
