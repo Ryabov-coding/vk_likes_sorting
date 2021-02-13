@@ -3,7 +3,7 @@
       <span v-for="locale in locales"
             :key="locale"
             @click="switchLocale(locale)"
-            class="locale-switcher__locale">{{ locale }}</span>
+            class="locale-switcher__locale">{{ getLocaleName(locale) }}</span>
   </div>
 </template>
 
@@ -23,7 +23,14 @@ export default {
         document.title = this.$t('doc-title')
         EventBus.$emit('locale_change', locale);
       }
-    }
+    },
+    getLocaleName(locale) {
+      const locales = {
+        ru: 'ру',
+        en: 'en',
+      }
+      return locales[locale]
+    },
   },
   computed: {
     locales() {
